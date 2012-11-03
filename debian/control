@@ -1,0 +1,16 @@
+Source: python-sh
+Section: python
+Priority: optional
+Maintainer: Héctor Acosta <hector.acosta@gmail.com>
+Build-Depends: debhelper (>=7.0.50~), python-support (>= 0.6)
+XS-Python-Version: >=2.4
+Standards-Version: 3.9.3
+
+Package: python-sh
+Architecture: all
+Homepage: http://amoffat.github.com/sh/
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python library that allows you to call any program as if it were a function.
+ sh (previously pbs) is a full-fledged subprocess interface for Python that 
+ allows you to call any program as if it were a function.
